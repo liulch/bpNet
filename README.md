@@ -54,7 +54,8 @@ before running the functions in **bpNet**.
 
 1. For Rcpp, RcppArmadillo and MacOS "-lgfortran" and "-lquadmath" error, click [here]( http://thecoatlessprofessor.com/programming/rcpp-rcpparmadillo-and-os-x-mavericks-lgfortran-and-lquadmath-error/) for details.
 2. Installation failure related to OpenMP on MacOS, click [here](http://thecoatlessprofessor.com/programming/openmp-in-r-on-os-x/) for a solution.
-3. To fix these issues, try installing gfortran 6.1 from [here]( https://gcc.gnu.org/wiki/GFortranBinaries#MacOS clang4 R Binaries from https://github.com/coatless/r-macos-clang).
+3. To fix these issues, try installing gfortran 6.1 from [here](https://gcc.gnu.org/wiki/GFortranBinaries#MacOS) and clang4 R Binaries from
+[here] (https://github.com/coatless/r-macos-clang).
 
 ***
 
