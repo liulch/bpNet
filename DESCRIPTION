@@ -1,0 +1,11 @@
+Package: bpNet
+Type: Package
+Title: Identifying Network Influence from Spatio-temporal Data 
+Version: 0.0.1
+Date: 2020-09-08
+Author: Xun Pang; Licheng Liu
+Maintainer: Licheng Liu <liulch@mit.edu>
+Description: An R package for estimating network influence from spatio-temporal data. 
+License: MIT
+Imports: Rcpp (>= 1.0.4.6)
+LinkingTo: Rcpp, RcppArmadillo
