@@ -1,7 +1,6 @@
----
-title: "bpNet: A Bayesian method  for estimating network influnece with panel spatial autoregressive model with unobserved factors"
-output: html_document
----
+
+# "bpNet: A Bayesian method  for estimating network influnece with panel spatial autoregressive model with unobserved factors"
+
 
 **R** package for 'A Bayesian Method for Identifying and Explaining Dynamic 
 Network Influence with TSCS Data'.
