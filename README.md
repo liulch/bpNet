@@ -65,9 +65,13 @@ before running the functions in **bpNet**.
 We begin with the description of the model to illustrate the syntax of the function 
 `bpNet()`. The (reduced) functional form of the panel spatial autoregressive 
 (panel SAR) model is:
-$$ y_{it} = \gamma y_{i,t-1} + \rho_t \sum\limits_{j=1}^{N} w_{ij,t} y_{jt} + 
+
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;y_{it} = \gamma y_{i,t-1} + \rho_t \sum\limits_{j=1}^{N} w_{ij,t} y_{jt} + 
 X_{it}^{\prime}\beta + Z_{it}^{\prime}\alpha_i + A_{it}^{\prime}\xi_t + 
-\varepsilon_{it} $$ 
+\varepsilon_{it}" title="y_{it} = \gamma y_{i,t-1} + \rho_t \sum\limits_{j=1}^{N} w_{ij,t} y_{jt} + 
+X_{it}^{\prime}\beta + Z_{it}^{\prime}\alpha_i + A_{it}^{\prime}\xi_t + 
+\varepsilon_{it}" />
+
 $X_{it}$, $Z_{it}$ and $A_{it}$ are vectors of 
 covariates that have constant, unit-level random and time-level random effects on the 
 outcome respectively. The random effects are assumed to have zero mean. Note that 
