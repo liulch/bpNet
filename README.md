@@ -66,11 +66,9 @@ We begin with the description of the model to illustrate the syntax of the funct
 `bpNet()`. The (reduced) functional form of the panel spatial autoregressive 
 (panel SAR) model is:
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;y_{it} = \gamma y_{i,t-1} + \rho_t \sum\limits_{j=1}^{N} w_{ij,t} y_{jt} + 
-X_{it}^{\prime}\beta + Z_{it}^{\prime}\alpha_i + A_{it}^{\prime}\xi_t + 
-\varepsilon_{it}" title="y_{it} = \gamma y_{i,t-1} + \rho_t \sum\limits_{j=1}^{N} w_{ij,t} y_{jt} + 
-X_{it}^{\prime}\beta + Z_{it}^{\prime}\alpha_i + A_{it}^{\prime}\xi_t + 
-\varepsilon_{it}" />
+![\Large y_{it} = \gamma y_{i,t-1} + \rho_t \sum\limits_{j=1}^{N} w_{ij,t} 
+y_{jt} + X_{it}^{\prime}\beta + Z_{it}^{\prime}\alpha_i + A_{it}^{\prime}\xi_t
++ \varepsilon_{it}](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
 
 $X_{it}$, $Z_{it}$ and $A_{it}$ are vectors of 
 covariates that have constant, unit-level random and time-level random effects on the 
