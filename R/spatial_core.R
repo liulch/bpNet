@@ -703,9 +703,26 @@ bspanel.core <- function(Y,
 			} else {
 				fefit <- nL %*% t(Factor)
                 ## permutation 
-				permu <- permute(omega, Factor)
-                omega <- permu$omega
-                Factor <- permu$Xi 
+				
+				#permu <- permute(omega, Factor)
+                #omega <- permu$omega
+                #Factor <- permu$Xi 
+
+                for (j in 1:r) {
+                    con <- runif(1, 0, 1)
+                    if (con > 1/4 && con <= 1/2) {
+                        L[, j] <- -L[, j]
+                        Factor[, j] <- -Factor[, j]
+                    } else if (con > 1/2 && con <= 3/4) {
+                        L[, j] <- -L[, j]
+                        omega[j, 1] <- -omega[j, 1] 
+
+                    } else if (con > 3/4) {
+                         Factor[, j] <- -Factor[, j]
+                         omega[j, 1] <- -omega[j, 1] 
+                    }
+                }
+
 
                 if (i > burn) {
 			    	omega_i[, i - burn] <- omega

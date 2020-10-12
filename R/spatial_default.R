@@ -1,4 +1,3 @@
-
 bpNet <- function(data, ## sort by id, time 
 	              W,    ## N * N * T
 	              index, ## id and time 
@@ -73,7 +72,7 @@ bpNet <- function(data, ## sort by id, time
 	## group <- matrix(data2[, group], N, TT)
 
 	if (!is.null(rhoZ)) {
-		if (class(rhoZ) != "matrix") {
+		if (!"matrix" %in% class(rhoZ)) {
 			stop("\"rhoZ\" should be a matrix.\n")
 		} else {
 			if (dim(rhoZ)[1] != TT) {

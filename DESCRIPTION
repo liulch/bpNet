@@ -1,7 +1,7 @@
 Package: bpNet
 Type: Package
 Title: Identifying Network Influence from Spatio-temporal Data 
-Version: 0.0.1
+Version: 0.0.2
 Date: 2020-09-08
 Author: Xun Pang; Licheng Liu
 Maintainer: Licheng Liu <liulch@mit.edu>
